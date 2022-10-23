@@ -1,9 +1,12 @@
 <script>
-  import PremierePage from "./premiere-page.svelte";
+	import Jeux from './jeux.svelte';
+	import Rangee from './rangee.svelte';
+	import BarreLaterale from './barre-laterale.svelte';
 </script>
 
 <main>
-  <PremierePage/>
+	<BarreLaterale />
+	<Rangee />
 </main>
 
 <style>
